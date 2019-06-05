@@ -18,3 +18,5 @@ services.AddScoped<IDatabase>(sp =>
                 return connection.GetDatabase();
             });
 ````
+
+### Note: This is only an example and there is not support for this solution.
